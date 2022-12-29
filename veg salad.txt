@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(147, 214, 147);
+        }
+
+        .body_container {
+            text-align: center;
+            align-items: center;
+        }
+
+        #vegetableSaladImage {
+            width: 40%;
+            height: 40%;
+        }
+
+        .heading {
+            color: rgb(21, 21, 148);
+            font-size: 24px;
+        }
+
+        h3 {
+            color: rgb(31, 31, 231);
+            font-size: 28px;
+        }
+
+        #benefitsParagraph {
+            color: navy;
+        }
+
+        #stepForVegetableSalad {
+            display: inline-block;
+            text-align: left;
+            color: navy;
+        }
+        #footerText{
+            color: navy;
+            margin-top: 50px;
+            border-top:2px solid  wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class ="body_container">
+        <title id="titleName">VEGETABLE SALAD</title>
+        <img id="vegetableSaladImage" src="https://img.taste.com.au/QaDKlckA/taste/2016/11/fresh-summer-vegetable-salad-91664-1.jpeg" alt=salad image>
+        <h1 id="benefits">Benifits Of Vegetable Salad</h1>
+        <p id="benefitsParagraph">Your leafy greens and raw veggies are a superb source of natural fiber, and consuming enough fiber each day has several health advantages.Fiber helps to reduce LDL or “bad” cholesterol.It helps to control blood sugar.Adequate fiber intake helps with weight loss and healthy weight maintenance.</p>
+        <h2 id="steps">Steps to make Vegetable Salad</h2>
+        <ul id="stepsForVegetableSalad">
+            <li>Put all your mixed greens and spinach in a large bowl.</li>
+            <li>Add in the cucumbers, carrots, bell pepper and tomatoes.</li>
+            <li>Put in the protein of your choice.</li>
+            <li>Top with the tasty toppings, which are your pumpkin seeds, basil leaves and chickpeas.</li>
+            <li >In a separate bowl, place all dressing ingredients and whisk until combined.</li>
+            <li>Toss all salad ingredients in a medium bowl.</li>
+            <li>Dress and plate your salad.</li>        
+        </ul>
+        <footer id="footerText">Now who’s ready to make some smashing salads?</footer>
+    </div>
+
+    
+</body>
+</html>
